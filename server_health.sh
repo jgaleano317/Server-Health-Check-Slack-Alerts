@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 
 set -euo pipefail
@@ -36,4 +35,3 @@ if [ "$DISK_USAGE" -ge "$DISK_THRESHOLD" ]; then
 else
     echo "Disk usage is below the ${DISK_THRESHOLD}% threshold."
 fi
-```
